@@ -31,7 +31,7 @@ class AddTask extends React.Component<IProps, IState> {
     event.preventDefault();
 
     var request: TasksTypes.Request.SaveTaskRequest = {
-      TaskDetails: { taskContent: this.state.taskContent, imgName: this.state.imageName, imgData: this.state.imageData } as TasksTypes.TaskDetails
+      TaskDetails: { taskContent: this.state.taskContent, imageName: this.state.imageName, imageData: this.state.imageData } as TasksTypes.TaskDetails
     }
 
     fetch('api/TasksApi/SaveTask', {

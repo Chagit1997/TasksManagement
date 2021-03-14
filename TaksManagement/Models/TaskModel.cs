@@ -8,8 +8,8 @@ namespace TaksManagement.Models
     public class TaskDetails
     {
       public string TaskContent { get; set; }
-      public string ImgName { get; set; }
-      public string ImgData { get; set; }
+      public string ImageName { get; set; }
+      public string ImageData { get; set; }
     }
 
     public class Request

@@ -3,8 +3,8 @@
 
   export interface TaskDetails {
     taskContent: string;
-    imgName: string;
-    imgData: string;
+    imageName: string;
+    imageData: string;
   };
 
   export module Request {

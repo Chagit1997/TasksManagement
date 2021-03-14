@@ -26,12 +26,12 @@ class TaskViewer extends React.Component<IProps, IState>  {
             </div>
             <div className="form-group">
               <label>Image name</label>
-              <div>{this.props.task.imgName || 'No image'}</div>
+              <div>{this.props.task.imageName || 'No image'}</div>
             </div>
           </div>
           <div className="image-container d-flex border">
-            <img src={this.props.task.imgData} />
-            {!this.props.task.imgData && <div className="text-center flex-fill font-weight-bold">No image</div>}
+            <img src={this.props.task.imageData} />
+            {!this.props.task.imageData && <div className="text-center flex-fill font-weight-bold">No image</div>}
           </div>
         </div>
       </div>
